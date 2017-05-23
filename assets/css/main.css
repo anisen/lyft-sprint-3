@@ -4,5 +4,139 @@ Colors:
 #E56385;
 #00B2A9;
 #75726C;
-#EDE9E2
+#EDE9E2;
 */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/*MENU MENU MENU MENU MENU MENU*/
+
+.conten-logo{
+	position: relative;
+	top: 10px;
+	left: 100px;
+}
+.logo{
+	text-align: left;
+	padding: 0 30px;
+	width: 80px;
+	height: 50px;
+}
+.menu{
+	background-color: #E54E79;
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	height: 70px;
+}
+.todas-opciones{
+	position: relative;
+	left: 800px;
+	bottom: 50px;
+}
+li{
+	float: left;
+	display: block;
+	color: #EDE9E2;
+	padding: 14px 16px;
+}
+
+/*  IMAGEN FIJA  :3  */
+
+#guardar-imagen{
+    position: fixed;
+    z-index: -1;
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	background-image: url('../img/cropped-Lyft-Promo-Codes-car-1.jpg');
+}
+
+/* FORMULARIO */
+.ajustar-formulario{
+	padding: 50px;
+		display: block;
+		position: relative;
+		top: 20px;
+}
+.todo-el-formulario{
+	margin: 0;
+	padding: 0;
+	background-color: #EDE9E2;
+	position: relative;
+	top: 200px;
+	left: 786px;
+	width: 500px;
+	height: 400px;
+
+}
+#h1-formulario{
+	color: #00B2A9;
+	font-size: 27px;
+}
+#h2-formulario{
+  color: #75726C;
+  font-size: 14px;
+  position: relative;
+  top: 20px;
+}
+.input-formulario{
+   padding: 10px;
+   position: relative;
+   top: 50px;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-bottom: 1px solid #75726C;
+   font-size: 15px;
+   width: 100%;
+   background-color:#EDE9E2; 
+}
+.nombre-primer-boton{
+	background-color: #E56385;
+	border-radius: 10px;
+	position: relative;
+	top: 80px;
+	padding: 10px;
+	color:#EDE9E2;
+	width: 220px; 
+	font-size: 18px;
+}
+.parrafo-uno{
+   position: relative;
+   top: 90px;
+   font-size: 16px;
+}
+.parrafo-dos{
+  position: relative;
+  top: 100px;
+  font-size: 16px;
+}
+
+/* SEGUNDA SECCION*/
+
+.fondo-segundaParte{
+	background-color: #00B2A9;
+	position: relative;
+	top: 300px;
+	height: 900px;
+}
+.titulo-segundaParte{
+	width: 100%;
+	position: relative;
+	top: 50px;
+	width: 100%;
+	height: 80px;
+	background-color: #EDE9E2;
+	text-align: center;
+}
+#h1-segundaParte{
+	font-size: 50px;
+	color: #75726C;
+	position: relative;
+	top: 10px;
+}
