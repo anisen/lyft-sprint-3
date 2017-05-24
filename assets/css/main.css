@@ -193,14 +193,14 @@ Colors:
 	font-size: 30px;
 }
 #primer-auto{
-   position: relative;
-   left: 38px;
-   top: 80px;
+	position: relative;
+	left: 38px;
+	top: 80px;
 }
 #segundo-auto{
- position: relative;
-   left: 110px;
-   top: 80px;
+	position: relative;
+	left: 110px;
+	top: 80px;
 }
 
 /*tablero*/
@@ -248,7 +248,7 @@ Colors:
 	padding-bottom: 5px;
 }
 .h3{
-position: absolute;
+	position: absolute;
 	left: 230px;
 	top: 25px;
 	color: #EDE9E2;
@@ -263,22 +263,22 @@ position: absolute;
 /* ultima ultima*/
 .ultima-ultima{
 	background-color: #706d68;
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 	position:relative;
 	top: 1050px;
 	width: 100%;
 	height: 43px;
 }
 .izquierda{
-position: absolute;
-left: 250px;
-top: 10px;
-color: white;
+	position: absolute;
+	left: 250px;
+	top: 10px;
+	color: white;
 }
 .derecha{
- position: absolute;
-left: 1050px;
-bottom: 10px;
-color: white;
+	position: absolute;
+	left: 1050px;
+	bottom: 10px;
+	color: white;
 }
