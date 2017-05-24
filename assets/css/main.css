@@ -1,10 +1,10 @@
 /*
 Colors: 
-#E54E79;
-#E56385;
-#00B2A9;
-#75726C;
-#EDE9E2;
+#E54E79; rosado
+#E56385; rosado claro
+#00B2A9; celeste
+#75726C; gris
+#EDE9E2; medio blanco
 */
 *{
 	margin: 0;
@@ -35,8 +35,8 @@ Colors:
 }
 .todas-opciones{
 	position: relative;
-	left: 800px;
-	bottom: 50px;
+	left: 900px;
+	bottom: 43px;
 }
 li{
 	float: left;
@@ -48,8 +48,8 @@ li{
 /*  IMAGEN FIJA  :3  */
 
 #guardar-imagen{
-    position: fixed;
-    z-index: -1;
+	position: fixed;
+	z-index: -1;
 	width: 100%;
 	height: 700px;
 	background-size: cover;
@@ -59,9 +59,9 @@ li{
 /* FORMULARIO */
 .ajustar-formulario{
 	padding: 50px;
-		display: block;
-		position: relative;
-		top: 20px;
+	display: block;
+	position: relative;
+	top: 20px;
 }
 .todo-el-formulario{
 	margin: 0;
@@ -79,22 +79,22 @@ li{
 	font-size: 27px;
 }
 #h2-formulario{
-  color: #75726C;
-  font-size: 14px;
-  position: relative;
-  top: 20px;
+	color: #75726C;
+	font-size: 14px;
+	position: relative;
+	top: 20px;
 }
 .input-formulario{
-   padding: 10px;
-   position: relative;
-   top: 50px;
-   border-top: none;
-   border-left: none;
-   border-right: none;
-   border-bottom: 1px solid #75726C;
-   font-size: 15px;
-   width: 100%;
-   background-color:#EDE9E2; 
+	padding: 10px;
+	position: relative;
+	top: 50px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #75726C;
+	font-size: 15px;
+	width: 100%;
+	background-color:#EDE9E2; 
 }
 .nombre-primer-boton{
 	background-color: #E56385;
@@ -107,14 +107,14 @@ li{
 	font-size: 18px;
 }
 .parrafo-uno{
-   position: relative;
-   top: 90px;
-   font-size: 16px;
+	position: relative;
+	top: 90px;
+	font-size: 16px;
 }
 .parrafo-dos{
-  position: relative;
-  top: 100px;
-  font-size: 16px;
+	position: relative;
+	top: 100px;
+	font-size: 16px;
 }
 
 /* SEGUNDA SECCION*/
@@ -123,20 +123,72 @@ li{
 	background-color: #00B2A9;
 	position: relative;
 	top: 300px;
-	height: 900px;
+	height: 700px;
 }
 .titulo-segundaParte{
 	width: 100%;
 	position: relative;
-	top: 50px;
+	top: 80px;
 	width: 100%;
-	height: 80px;
+	height: 90px;
 	background-color: #EDE9E2;
 	text-align: center;
 }
 #h1-segundaParte{
-	font-size: 50px;
+	font-size: 60px;
 	color: #75726C;
 	position: relative;
-	top: 10px;
+	top: 15px;
+}
+.pedir-datos-auto{
+	background-color: #EDE9E2;
+	position: relative;
+	top: 160px;
+	left: 230px;
+	width: 920px;
+	height: 250px;
+}
+.fa, .fa-car{
+	width: 30px;
+	height: 30px;
+}
+.ii{
+	background-color: red;
+}
+.input-segundaParte{
+	position: relative;
+	left: 100px;
+	top: 70px;
+	width: 340px;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid #75726C;
+	background-color: #EDE9E2;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.segundoinput-segundaParte{
+	position: relative;
+	left: 520px;
+	top: 40px;
+	width: 340px;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid #75726C;
+	background-color: #EDE9E2;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.segundo-boton{
+	border-radius: 10px;
+	position: relative;
+	top: 88px;
+	left: 30px;
+	width: 844px;
+	height: 55px;
+	background-color: #00B2A9;
+	color: white;
+	font-size: 25px;
 }
