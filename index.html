@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Title</title>
+	<script src="https://use.fontawesome.com/8f683cd035.js"></script>
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
@@ -31,8 +32,8 @@
 			<div class="ajustar-formulario">
 				<h1 id="h1-formulario">TURN MILES INTO MONAY</h1>
 				<h2 id="h2-formulario">SIGN UP TO DRIVE LYFT</h2>
-				<input type="text" name="primer-input" placeholder="Phone Number" class="input-formulario">
-				<button class="nombre-primer-boton">  BECOME A DRIVER  ❤  </button>
+				<input type="text" name="primer-input" placeholder="Phone Number" class="input-formulario" id="inp-form">
+				<button class="nombre-primer-boton" id="primer-boton">  BECOME A DRIVER  ❤  </button>
 				<p class="parrafo-uno">Already applied? Check the status of you application here</p>
 				<p class="parrafo-dos">Earn money for inviting friends to drive. Learn more</p>
 			</div>
@@ -47,22 +48,25 @@
 			</div>
 			<div class="pedir-datos-auto">
 
-				<div class="ii">
-					<i class="fa fa-car" aria-hidden="true"></i>
-				</div>
+			    <i class="fa fa-car" aria-hidden="true" id="primer-auto"></i>
 
 				<input type="text" name="primer-auto" placeholder="X coordinate" class="input-segundaParte">
 
-				<div class="ia">
-					<i class="fa fa-car" aria-hidden="true"></i>
-				</div>
+				<i class="fa fa-car" aria-hidden="true" id="segundo-auto"></i>
 
 				<input type="text" name="segundo-auto" placeholder="Y coordinate" class="segundoinput-segundaParte">
-				<button class="segundo-boton">START</button>
+
+				<button class="segundo-boton" id="botonauto">START</button>
 			</div>
 		</div>
 	</nav>
 
+	<!-- TABLERO TABLERO TABLERO TABLERO -->
+	<div class="todo-tablero">
+	   <div class="tablero">
+	    <canvas width="800" height="500" id="area-dibujo"></canvas>
+	   </div>
+    </div>
 	<!-- ULTIMA PARTE -->
 
 	<nav>
